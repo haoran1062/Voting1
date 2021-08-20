@@ -1,0 +1,20 @@
+{
+    "name": "truffle test",
+    "type": "node",
+    "request": "launch",
+    "program": "/usr/local/lib/node_modules/truffle/build/cli.bundled.js",
+    "args": [
+      "test"
+    ],
+    "cwd": "${workspaceRoot}",
+    "outFiles": [
+      "${workspaceRoot}/test/**/*"
+    ],
+    "configurations": [
+    {
+        "type": "solidityMeadow",
+        "request": "launch",
+        "name": "Debug Solidity (via unit test run)"
+    }
+    ],
+}
